@@ -21,8 +21,8 @@ botNames.forEach((name, index) => {
 
 function createBot(username) {
   const bot = mineflayer.createBot({
-    host: 'avinashboy.play.minekube.net',
-    port: 19132,
+    host: 'avinashboy.aternos.me',
+    port: 47974,
     username: username,
     version: false
   });
