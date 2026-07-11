@@ -22,7 +22,7 @@ botNames.forEach((name, index) => {
 function createBot(username) {
   const bot = mineflayer.createBot({
     host: 'play.earthinhosting.online',
-    port: 2000,
+    port: 19050,
     username: username,
     version: false
   });
